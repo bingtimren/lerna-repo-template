@@ -1,0 +1,31 @@
+{
+  "name": "lerna-repo-template",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "git:hook:pre-commit": "lint-staged -v"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {},
+  "lint-staged": {
+    "**/*.ts": [
+      "op-lint fix"
+    ],
+    "**/*.js": [
+      "op-lint fix"
+    ],
+    "**/*.json": [
+      "op-lint fix",
+      "prettier --write"
+    ]
+  }
+}
