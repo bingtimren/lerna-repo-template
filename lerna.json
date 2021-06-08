@@ -1,13 +1,21 @@
 {
-  "packages": ["packages/*"],
-  "private": true,
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
+  "packages": ["packages/*", "tools/*", "apps/*"],
   "command": {
+    "create": {
+      "access": "public",
+      "private": false,
+      "registry": "https://registry.npmjs.org",
+      "license": "MIT"
+    },
     "publish": {
-      "conventionalCommits": true,
       "message": "chore(release): publish"
+    },
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
     }
   }
 }

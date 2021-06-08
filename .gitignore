@@ -1,0 +1,14 @@
+node_modules
+
+# default build destinations and products
+build
+dist
+
+# typescript
+*.tsbuildinfo
+
+# optools files
+.opToolsConfig
+
+# Lerna
+lerna-debug.log
