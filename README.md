@@ -36,6 +36,7 @@ Review the files, make appropriate changes, then create first commit.
   - prepare and enforce commit message in conventional format
 - uses 'op-tscdoc' to compile Typescript codes and API documents
 - uses 'op-jest' to run tests written in Typescript
+- by default `lerna create` creates a public ES Module package
 - by default publishes to local registry (verdaccio)
 
 
