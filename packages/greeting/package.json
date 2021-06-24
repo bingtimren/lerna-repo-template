@@ -1,0 +1,24 @@
+{
+  "name": "greeting",
+  "version": "0.1.0",
+  "description": "a simple greeting function",
+  "author": "Bing Ren <bingtimren@gmail.com>",
+  "homepage": "https://github.com/bingtimren/lerna-repo-template#readme",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/greeting.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingtimren/lerna-repo-template.git"
+  },
+  "scripts": {
+    "build": "op-tscdoc build",
+    "test": "op-jest --coverage"
+  },
+  "bugs": {
+    "url": "https://github.com/bingtimren/lerna-repo-template/issues"
+  }
+}
