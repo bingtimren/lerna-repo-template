@@ -11,7 +11,7 @@
     "apps/*"
   ],
   "devDependencies": {
-    "@bingsjs/ts-std-tools": "^0.6.2"
+    "@bingsjs/ts-lerna-std-tools": "^0.2.0"
   },
   "dependencies": {}
 }
