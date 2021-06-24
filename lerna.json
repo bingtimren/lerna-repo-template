@@ -7,11 +7,12 @@
     "create": {
       "access": "public",
       "private": false,
-      "registry": "https://registry.npmjs.org",
-      "license": "MIT"
+      "license": "MIT",
+      "es-module": true
     },
     "publish": {
-      "message": "chore(release): publish"
+      "message": "chore(release): publish",
+      "registry": "http://localhost:4873"
     },
     "version": {
       "allowBranch": "main",
