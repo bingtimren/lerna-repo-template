@@ -12,3 +12,8 @@ dist
 
 # Lerna
 lerna-debug.log
+
+# AWS CDK
+# CDK asset staging directory
+.cdk.staging
+cdk.out

@@ -1,3 +1,4 @@
 ignores:
 - "@types/*"
 - "ts-node"
+- aws-cdk

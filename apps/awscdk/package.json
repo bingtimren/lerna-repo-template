@@ -5,20 +5,16 @@
     "awscdk": "bin/awscdk.js"
   },
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "build": "cdk synth",
+    "test": "op-jest"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.109.0",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
-    "jest": "^26.4.2",
-    "ts-jest": "^26.2.0",
     "aws-cdk": "1.109.0",
-    "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
+    "jest": "^26.4.2",
+    "ts-node": "^9.0.0"
   },
   "dependencies": {
     "@aws-cdk/core": "1.109.0",
