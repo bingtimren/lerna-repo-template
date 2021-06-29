@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import "source-map-support/register";
 import * as cdk from "@aws-cdk/core";
-import { AwscdkStack } from "../stacks/awscdk-stack";
+import { GreetingAPIStack } from "../stacks/greeting-api";
 
 const app = new cdk.App();
-new AwscdkStack(app, "AwscdkStack", {
+new GreetingAPIStack(app, "GreetingAPIStack", {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
